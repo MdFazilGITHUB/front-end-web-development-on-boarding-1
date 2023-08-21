@@ -1,0 +1,35 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+  body{
+    background-color: azure;
+    font-family: 'Lato',sans-serif;
+  }
+
+  img{
+    width: 500px;
+    height: 300px;
+    border: solid 3px rgb(3, 162, 255);
+    border-radius: 20px;
+  }
+
+  h2{
+    color: blueviolet;
+    font-size: xx-large;
+    text-align: center;
+  }
+  h3{
+    color: rgb(194, 65, 97);
+    text-align: center;
+  }
+
+  li{
+    padding:5px;
+    margin:2px;
+  }
+
+  h2.hobbies{
+    font-size: xx-large;
+    text-align: center;
+  }
+  
