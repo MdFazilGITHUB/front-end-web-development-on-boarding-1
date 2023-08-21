@@ -7,31 +7,61 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <h2>Mohamed Fazil</h2>
-    <p>I am a Kalvium student</p>
-    <h2 class="hobbies"><u>My Hobbies</u></h2>
-    <ol>
-        <div></div><li><u>Playing Football</u></li>
-        <img src="https://images.livemint.com/img/2021/08/15/1140x641/iStock-1161534983_1629035673563_1629035686952.jpg" alt=""><br><br>
-        <li><u>Playing Basketball</u></li>
-        <img src="https://www.sportsbusinessjournal.com/-/media/Images/Journal/2022/09/26/pg-15-19-Participation-Adult-Basketball_Getty.ashx?mw=768" alt=""><br><br>
-        <li><u>Playing Video Games</u></li>
-        <img src="https://www.washingtonpost.com/news/morning-mix/wp-content/uploads/sites/21/2018/04/AP_18079325958644.jpg" alt=""><br><br>
-        <li><u>Solving Rubix Cube</u></li>
-        <img src="https://www.goodnet.org/photos/281x197/33769_hd.jpg" alt=""><br><br>
-    </ol>
-    <h2><u>My Education Uptil Now</u></h2>
-    <ul>
-        <li>I did my primary education in Walt Disney Elementary School in Omaha,Nebraska,USA</li>
-        <img src="https://disney.mpsomaha.org/sites/disney.mpsomaha.org/files/styles/tall_banner/public/slideshow/Disney%205-22-19%20%2826a%29.jpg?h=e90ab72c&itok=s8vrFvzy" alt="">
-        <li>My middle school journey was completed in Petit Seminaire Higher Secondary School,Puducherry,India</li>
-        <img src="https://www.petitcbse.com/uploads/gallery/media/FRONT-BUILDING.jpg" alt="">
-        <li> My final years of high school were successfully completed in Achariya Bala Siksha Mandir,Puducherry,India</li>
-        <img src="" alt="">
-    </ul>
+    <!-- Building navbar -->
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#hobbies">My Hobbies</a>
+        <a href="#education">Education</a>
+        <a href="#acheivements">Acheivements</a>
+    </nav>
+    <!-- building header section -->
+    <header id="home" class="flex space-between align-center flex-wrap">
+        <div class="header-text flex space-evenly direction-column">
+        <h1><u>About Me</u></h1>
+        <img class="profilepic" src="IMG_0135.JPG" alt="">
+        <h3 class="me"><b>Hey Everyone! I'm Mohamed Fazil and I am a Proud Kalvian Student studying B.Tech CSE at Lovely Professional University,Punjab. I am an aspiring Fullstack Developer and I hope to make a change in this always adapting and changing environment!</b></h3>
+        </h3>
+    </header>
+    <div id="hobbies">
+        <h2 class="hobbies"><u>My Hobbies</u></h2>
+        <ol>
+            <div class="row"><li><u>Playing Football</u></li>
+            <img src="https://images.livemint.com/img/2021/08/15/1140x641/iStock-1161534983_1629035673563_1629035686952.jpg" alt=""><br><br>
+            <li><u>Playing Basketball</u></li>
+            <img src="https://www.sportsbusinessjournal.com/-/media/Images/Journal/2022/09/26/pg-15-19-Participation-Adult-Basketball_Getty.ashx?mw=768" alt=""></div><br><br>
+            <div class="column"><li><u>Playing Video Games</u></li>
+            <img src="https://www.washingtonpost.com/news/morning-mix/wp-content/uploads/sites/21/2018/04/AP_18079325958644.jpg" alt=""><br><br>
+            <li><u>Solving Rubix Cube</u></li>
+            <img src="https://www.goodnet.org/photos/281x197/33769_hd.jpg" alt=""></div><br><br>
+        </ol>
+    </div>
+    <div id="education">
+        <h2 class="hobbies"><u>My Education Uptil Now</u></h2>
+        <div class="container">
+            <ul class="myul">
+                <li>I did my primary education in Walt Disney Elementary School in Omaha,Nebraska,USA</li>
+                <img class="hi" src="https://disney.mpsomaha.org/sites/disney.mpsomaha.org/files/styles/tall_banner/public/slideshow/Disney%205-22-19%20%2826a%29.jpg?h=e90ab72c&itok=s8vrFvzy" alt="">
+                <li>My middle school journey was completed in Petit Seminaire Higher Secondary School,Puducherry,India</li>
+                <img class="hi" src="https://www.petitcbse.com/uploads/gallery/media/FRONT-BUILDING.jpg" alt="">
+                <li> My final years of high school were successfully completed in Achariya Bala Siksha Mandir,Puducherry,India</li>
+                <img class="hi" src="https://scontent.fluh4-1.fna.fbcdn.net/v/t1.18169-9/182808_194620453901485_5097503_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=xqBRfp4cz88AX-B76E9&_nc_ht=scontent.fluh4-1.fna&oh=00_AfDWE8Xp0RrPc8yzBVd_CspMntstCHyaDr3bAvmTrpZocg&oe=650AF6A4" alt="">
+            </ul>
+        </div>   
+    </div>    
 
-    
-    <p><u>Made By Mohamed Fazil</u></p>
+    <div id="acheivements">
+        <h2 class="hobbies"><u>My Victories</u></h2>
+        <ul class="myul1">
+            <div class="row1">
+                <li>Scored 95% in my 12th CBSE Board Exams.</li>
+                <li>I secured school 1st rank in my school in MPCB.</li>
+            </div>
+            <div class="column1">
+                <li>I've gotten 4 Gold Medals from IEO English Olympiad for getting class 1st.</li>
+                <li>My team and I won 1st place in an Inter-school Science Competition </li>
+            </div>
+        </ul>
+    </div> 
+    <p class="end"><u>Made By Mohamed Fazil</u></p>
 </body>
 </html>
