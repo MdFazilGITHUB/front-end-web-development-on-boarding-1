@@ -120,20 +120,20 @@ p.end{
 .row1{
   color: rgb(0, 0, 0);
   display: flex;
-  padding: 40px;
+  /* padding: 40px; */
   text-align: end;
   justify-content: space-around;
-  margin-left: 3%;
+  margin-left: 15%;
   font-weight: 900;
 }
 
 .column1{
   color: rgb(0, 0, 0);
   display: flex;
-  padding-right: 40px;
+  /* padding-right: 40px; */
   text-align: center;
   justify-content: space-around;
-  margin-left: 3%;
+  margin-left: 15%;
   font-weight: 900;
 }
 
