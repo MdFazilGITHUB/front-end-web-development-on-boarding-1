@@ -38,6 +38,7 @@
     padding:5px;
     margin:2px;
     font-weight: 900;
+    list-style-position: inside;
   }
 
   h2.hobbies{
@@ -140,6 +141,7 @@ p.end{
 ul.myul1{
   display: inline-block;
   text-align: left;
+  list-style-position: inside;
 }
 
 div.acheivements {
