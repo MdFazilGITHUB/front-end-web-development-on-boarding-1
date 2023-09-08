@@ -147,3 +147,11 @@ ul.myul1{
 div.acheivements {
   text-align: center;}
 
+blockquote{
+  background-color: rgb(146, 206, 255);
+  border: solid black 4px;
+  height: 50px;
+  width: 1000px;
+  padding: 10px;
+  margin-left: -20px;
+}
