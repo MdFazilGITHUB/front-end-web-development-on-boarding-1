@@ -1,6 +1,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 
+  /* element selector */
   body{
     font-family: 'Lato',sans-serif;
     background-image: url(pexels-francesco-ungaro-281260.jpg);
@@ -9,6 +10,7 @@
     background-size: 100% 100%;
   }
 
+  /* element selector */
   img{
     width: 250px;
     height: 150px;
@@ -16,17 +18,21 @@
     border-radius: 20px;
   }
   
+  /* element selector */
   h1{
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: xx-large;
   }
-
+  
+  /* element selector */
   h2{
     color: rgb(10, 10, 10);
     font-weight: 500;
     text-align: center;
   }
+  
+  /* element selector */
   h3{ 
     color: rgb(0, 0, 0);
     text-align: center;
@@ -34,6 +40,7 @@
     margin-left: 25%;
   }
 
+  /* element selector */
   li{
     padding:5px;
     margin:2px;
@@ -41,6 +48,7 @@
     list-style-position: inside;
   }
 
+  /* element with class selector */
   h2.hobbies{
     font-size: xx-large;
     text-align: center;
@@ -48,6 +56,7 @@
     color: white;
   }
   
+  /* element with class selector */
   nav.navbar{
     text-align: center;
     padding: 4px;
@@ -59,15 +68,19 @@
     font-weight: 11000;
   }
 
+  /* element with child selector */
   nav>a{    
     color: black;
     font-weight:1000;
     text-decoration: none;
 }
-nav>a:hover{
+
+  /* element with child and pseudo-class(hover) selector */
+  nav>a:hover{
     color: #ffffff;
   }
 
+  /* element and class selector */
   img.profilepic{
     height: 450px;
     width: 250px;
@@ -79,6 +92,7 @@ nav>a:hover{
     
   }
 
+  /* class selector */
   .row{
     display: flex;
     padding: 40px;
@@ -87,6 +101,7 @@ nav>a:hover{
     margin-left: 3%;
   }
 
+  /* class selector */
   .column{
     display: flex;
     padding: 40px;
@@ -96,62 +111,69 @@ nav>a:hover{
    
   }
 
+  /* element with class selector */
   ul.myul{
     display: inline-block;
     text-align: left;
   }
   
+  /* element with class selector */
   div.container {
-    text-align: center;}
+    text-align: center;
+  }
 
-img.hi{
-  margin-left: 28%;
-  border: solid 3px rgb(255, 203, 83);
-  border-radius: 10px;
-}
+  /* element with class selector */
+  img.hi{
+    margin-left: 28%;
+    border: solid 3px rgb(255, 203, 83);
+    border-radius: 10px;
+  } 
 
+  /* element with class selector */
+  p.end{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+  }
 
+  /* class selector */
+  .row1{
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-align: end;
+    justify-content: space-around;
+    margin-left: 25%;
+    font-weight: 900;
+  }
 
-p.end{
-  color: white;
-  text-align: center;
-  font-weight: 900;
-}
+  /* class selector */
+  .column1{
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 25%;
+    font-weight: 900;
+  }
 
-.row1{
-  color: rgb(0, 0, 0);
-  display: flex;
-  /* padding: 40px; */
-  text-align: end;
-  justify-content: space-around;
-  margin-left: 25%;
-  font-weight: 900;
-}
+  /* element with class selector */
+  ul.myul1{
+    display: inline-block;
+    text-align: left;
+    list-style-position: inside;
+  }
 
-.column1{
-  color: rgb(0, 0, 0);
-  display: flex;
-  /* padding-right: 40px; */
-  text-align: center;
-  justify-content: space-around;
-  margin-left: 25%;
-  font-weight: 900;
-}
+  /* element with class selector */
+  div.acheivements {
+    text-align: center;
+  }
 
-ul.myul1{
-  display: inline-block;
-  text-align: left;
-  list-style-position: inside;
-}
-
-div.acheivements {
-  text-align: center;}
-
-blockquote{
-  background-color: rgb(146, 206, 255);
-  border: solid black 4px;
-  height: 50px;
-  width: 1000px;
-  padding: 10px;
-  margin-left: -20px;
-}
+  /* element selector */
+  blockquote{
+    background-color: rgb(146, 206, 255);
+    border: solid black 4px;
+    height: 50px;
+    width: 1000px;
+    padding: 10px;
+    margin-left: -20px;
+  }
